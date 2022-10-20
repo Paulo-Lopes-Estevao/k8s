@@ -76,4 +76,12 @@ Now kubectl already communicates with the "kind-kind" cluster created by kind.
 
 digite `docker ps` to list container and you will see that you have a container running "kind-control-plane"
 
-That means it's working 🤗
+That means it's working 🤗.
+
+wait...
+
+More is not the best way for us to check 😶.
+
+The best way is using kubectl. 👍
+
+ `kubectl get nodes`
